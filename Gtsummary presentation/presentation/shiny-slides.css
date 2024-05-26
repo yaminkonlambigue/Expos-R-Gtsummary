@@ -1,0 +1,121 @@
+
+
+slides > slide.dark {
+  background-image: url(../img/background.jpg) !important;
+}
+
+
+slide img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body slides > slide {
+  font-family: Helvetica;
+}
+
+slides > slide.backdrop {
+  background-image: url(../img/background.jpg);
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+}
+
+slides > slide:not(.nobackground):after {
+  color: #3895af;
+}
+
+aside.gdbar {
+  background: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #3e8ac7), color-stop(100%, #3e8ac7)) no-repeat;
+  background: linear-gradient(left, #3e8ac7, #3e8ac7) no-repeat;
+}
+
+slides > slide:not(.nobackground):before {
+  background-size: 50px 50px;
+  padding-left: 50px;
+  height: 50px;
+  bottom: 5px;
+}
+
+div.notes {
+  color: #000000;
+}
+
+.forceBreak { -webkit-column-break-after: always; 
+  break-after: column; }
+
+
+  pre {
+   /* white-space: pre !important;*/
+    overflow-y: scroll !important;
+    overflow-x: scroll !important;
+    /*height: 50vh !important;*/
+    max-height: 40vh;
+    margin-left : 7%;
+    margin-right: 0%;
+    width: 100%;
+    padding: 1%;
+    color: rgb(206, 235, 244);
+
+
+  }
+
+.code_centrer{
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 45%;
+}
+
+.colon{
+  display:flex;
+  flex-direction: row;
+  /*align-items: center;*/
+  
+}
+
+.div_tbl{
+  
+  /*white-space: pre !important;*/
+  overflow-y: scroll !important;
+  overflow-x: scroll !important;
+  /*height: 60vh !important;*/
+  max-height: 70vh;
+  margin: 0%;
+  padding: 1%;
+  /*margin-top: 5vh;*/
+  margin-bottom: 5vh;
+  
+}
+.div_desc{
+  
+  /*white-space: pre !important;*/
+  overflow-y: scroll !important;
+  overflow-x: scroll !important;
+  /*height: 60vh !important;*/
+  max-height: 25vh;
+  margin: 0%;
+  padding: 1%;
+  /*margin-top: 5vh;*/
+  margin-bottom: 2vh;
+  
+}
+
+/* espace en dessous des titres 1 (h2) */
+
+slide h2 {
+  margin-bottom: 1vh;
+  color: #3895af;
+}
+
+slide h3 {
+  margin-bottom: 1vh;
+  color: #3895af;
+}
+
+#installation-et-types-de-variables {
+  margin-top: 1vh;
+}
+
+
+
+
